@@ -1,0 +1,4 @@
+interface:
+  display_name: "Amazon A+ Content"
+  short_description: "Plan A+ modules for books"
+  default_prompt: "Use $amazon-a-plus-content to create an Amazon A+ content plan for this book or series."

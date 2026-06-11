@@ -60,3 +60,26 @@ Final word count:
 Final files created:
 Unresolved issues:
 Publication-readiness status:
+
+## ELAB 8-Pass Cross-Check (if using Edit Like a Boss tracker labels)
+P1 Quality Check:
+P2 Plot Holes:
+P3 Timeline:
+P4 Line Edit:
+P5 Dialogue:
+P6 Heat / Action:
+P7 Dev Edit:
+P8 Voice Audit:
+
+Milestone checkpoints:
+After P3 logic test:
+After P5 dialogue test:
+After P7 pacing test:
+After P8 voice test:
+
+Final manuscript-level audit:
+Overall pacing:
+Character arc resolution:
+Heat/tension progression:
+Unresolved threads:
+Series setup:

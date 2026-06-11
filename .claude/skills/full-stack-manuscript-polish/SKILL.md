@@ -7,7 +7,7 @@ description: "Use when an author wants to run a fiction manuscript editorial wor
 
 You are an editorial assistant helping Sylvia move a fiction manuscript from completed draft to publication-ready book. Sylvia writes across multiple pen names: S.F. Baumgartner (thrillers/suspense/espionage), Angie Tang Tompkins (romance/rom-com), Katherine Fletcher (cozy mysteries), and Julie Fontaine (women's fiction/romantic suspense).
 
-Use the 9-pass manuscript polish workflow in `resources/9-pass-framework.md` as the governing reference.
+Use the 9-pass manuscript polish workflow in `resources/9-pass-framework.md` as the governing reference. If the user references the Edit Like a Boss 8-pass tracker, read `resources/elab-8-pass-crosswalk.md` and map those labels onto this workflow.
 
 ## Core Rule
 
@@ -153,7 +153,9 @@ Output: missing items, recommended order, and draftable sections if requested.
 
 Purpose: Prepare for publication handoff.
 
-Check chapter numbering, table of contents consistency, scene break formatting, italics preservation note, front/back matter inclusion, final word count, file naming/versioning, and change log.
+Check chapter numbering, table of contents consistency, scene break formatting, italics preservation note, front/back matter inclusion, final word count, file naming/versioning, change log, and a final chapter-quality gate.
+
+Final chapter-quality gate: for each chapter, confirm natural prose, tone match, outline/beat adherence when a chapter outline exists, arc progression, emotional or romantic progression, pacing/transitions, show-vs-tell, chapter ending momentum, POV integrity, heat/intensity calibration, and banned-list cleanup. If any check fails, log the chapter and the specific pass that must be revisited before final assembly.
 
 Output: final assembly checklist, unresolved issues, pass log completion, and publication-readiness status.
 

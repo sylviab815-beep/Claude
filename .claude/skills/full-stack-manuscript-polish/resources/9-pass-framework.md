@@ -2,7 +2,7 @@
 
 A reusable sequence for taking a fiction draft from rough to publishable. Run passes in order. Each pass depends on the previous one.
 
-> Calibrated for Sylvia Baumgartner's pen names: S.F. Baumgartner (thrillers/suspense), Angie Tang Tompkins (romance/rom-com), Katherine Fletcher (cozy mysteries), Julie Fontaine (women's fiction/romantic suspense). Voice DNA: James Patterson short-chapter style, dialogue over prose, clean writing (no profanity), page-turn hooks, no Oxford commas, no em dashes.
+> Calibrated for Sylvia Baumgartner's pen names: S.F. Baumgartner (thrillers/suspense), Angie Tang Tompkins (romance/rom-com), Katherine Fletcher (cozy mysteries), Julie Fontaine (women's fiction/romantic suspense). Voice DNA: James Patterson short-chapter style, dialogue over prose, clean writing (no profanity), page-turn hooks, CMOS/Oxford commas, em dashes only for dialogue interruptions.
 
 
 Pass 1 — Structure Check
@@ -34,8 +34,8 @@ Scan for:
 Chapters under genre minimum (PNR/RH typically 2k+ for major chapters; transition chapters can be 800-1500w).
 Emotional beats that happen off-page but should be on-page. Each major LI should have at least one body-anchored intimacy beat per book (in zero-kiss/slow-burn books, this is a restraint beat — held inch, not-touching).
 Climax expansion — the climax chapter should be the longest or near-longest in the book. Thin climaxes are the most common diagnostic of a rushed book.
-Setting/place texture — does the world feel inhabited? Each book should have at least one parish/town/community-life beat that isn't about the plot.
-Pathos beats — does each LI have a moment where their cost is felt, not just stated?
+Setting/place texture — does the world feel inhabited-> Each book should have at least one parish/town/community-life beat that isn't about the plot.
+Pathos beats — does each LI have a moment where their cost is felt, not just stated->
 
 Don't expand by:
 
@@ -108,7 +108,7 @@ Characters argue the way real people argue. No long monologues. No tidy speeches
 
 Humor by genre: thrillers and suspense lean dry (a flat observation in a tense moment). Cozy mysteries use gentle wit and small-town banter. Romcoms run on banter, miscommunication and situational comedy. Women's fiction uses self-aware humor. Across all genres: humor comes from character, not punchlines.
 
-Rule: If you delete the dialogue tags from a scene with all characters present, can the reader still tell who's speaking? If no, the registers haven't differentiated yet.
+Rule: If you delete the dialogue tags from a scene with all characters present, can the reader still tell who's speaking-> If no, the registers haven't differentiated yet.
 
 Pass 6 — Language Pass (Voice + Banned Vocabulary + AI-Tells)
 Purpose: Match Sylvia's Text DNA Bible and kill the AI-tells that creep in during drafting. This pass runs in coordination with the ai-tell-eliminator skill — use that skill for prose rewrites. This pass provides the diagnostic scan. Run each sub-pass as its own scan. Don't try to catch everything in one read.
@@ -138,31 +138,31 @@ Add to this list whenever a new tic surfaces per manuscript. Keep it living.
 6b. AI-tell pattern scan
 
 "It's not X, it's Y" negation structure — the single most prominent AI sentence tell. "This isn't just about efficiency. It's about transformation." Cut entirely.
-Self-posed questions answered immediately — "The best part? It's this." / "The kicker? It's that." AI asks questions nobody was asking, then answers them. Don't.
+Self-posed questions answered immediately — "The best part-> It's this." / "The kicker-> It's that." AI asks questions nobody was asking, then answers them. Don't.
 Anaphora abuse — same sentence opener three or more times in a row: "They believe that X... They believe that Y... They believe that Z..." Break the pattern.
 Present participle trailing clauses — shallow analysis tacked onto sentence endings: "contributing to the region's rich cultural heritage" / "highlighting its importance." Cut.
 Hedge-stacking — "It seems that it might perhaps be possible that..." One hedge maximum. Zero is better.
 Throat-clearing openers — "In today's world..." / "Now more than ever..." / "When it comes to..." Cut the opener entirely, start with the actual point.
-Em dash overuse — Sylvia bans em dashes. Use a comma + conjunction, split into two sentences, use parentheses for asides, or rewrite. Flag every em dash in the manuscript.
+Em dash use - em dashes are allowed for dialogue interruptions only. Use a comma + conjunction, split into two sentences, use parentheses for asides, or rewrite narrative/asides/emphasis em dashes. Flag every non-dialogue-interruption em dash in the manuscript.
 Past-perfect retrospection clusters — I had been waiting. I had been told. I had not believed. Three or more in close proximity: restructure to simple past.
 Internal monologue that explains what the scene already showed — cut any paragraph where the narrator explains to the reader what just happened. Trust the scene.
 
-6c. List formatting (no Oxford comma)
-Sylvia does not use Oxford commas. Sentence-stack and and-stack patterns are also banned for enumerative lists.
+6c. List formatting (CMOS/Oxford comma)
+Sylvia follows CMOS and uses Oxford commas. Sentence-stack and and-stack patterns are also banned for enumerative lists.
 
-❌ Oxford comma: I sat, stood, and walked.
+OK: Oxford comma: I sat, stood, and walked.
 ❌ Sentence-stack: I sat. I stood. I walked.
 ❌ And-stack: I sat and stood and walked.
-✓ Comma list, no serial comma: I sat, stood and walked.
+NO: Missing serial comma: I sat, stood and walked.
 
 Applies to enumerative lists — items in the same category being inventoried (actions, objects, qualities). Examples:
 
-I sat. I stood. I sat again. → I sat, stood and sat again.
-Jeans. Two shirts. The sweater she'd left. → Jeans, two shirts and the sweater she'd left.
-He was tired and slow and quiet. → He was tired, slow and quiet.
+I sat. I stood. I sat again. -> I sat, stood, and sat again.
+Jeans. Two shirts. The sweater she'd left. -> Jeans, two shirts, and the sweater she'd left.
+He was tired and slow and quiet. -> He was tired, slow, and quiet.
 
 Does NOT apply to sequential narrative beats with distinct content. I made coffee I didn't drink. I checked the door. I looked at my phone. — these are three different actions with different objects and context; they are narrative beats, not a list.
-Test: if the items are categorically the same (all actions in a row, all qualities, all objects), it's a list — apply the comma rule, no serial comma. If each sentence carries distinct context and object, it's narrative — leave as separate sentences.
+Test: if the items are categorically the same (all actions in a row, all qualities, all objects), it's a list -> apply the CMOS/Oxford comma rule. If each sentence carries distinct context and object, it's narrative -> leave as separate sentences.
 
 6d. Repeated words / lexical echoes
 Scan for the same noun, verb or adjective appearing multiple times in close proximity.
@@ -178,11 +178,11 @@ Flag any content word repeated 3+ times within 300 words. Decide: keep (earned a
 Same structural shape used back-to-back.
 
 Subject-verb-object stack: He turned. She nodded. He left. She stayed. — uniform short SVO across multiple sentences. Vary with one longer carrying-sentence or invert clause order.
-Em-dash mid-clause — banned entirely for Sylvia. Every em dash is a flag (see 6b).
+Em-dash mid-clause in narration - banned for Sylvia. Dialogue-interruption em dashes are allowed; every other em dash is a flag (see 6b).
 Trailing-clause stack: She arrived, her coat still wet. He left, his coffee untouched. Multiple sentences using the same ", [noun phrase]" tail pattern.
 Anaphora unintentional: He said. He turned. He left. (or I said. I turned. I left.) when not earned.
 
-Test: read three consecutive sentences aloud. Do they have the same shape? If yes, vary one.
+Test: read three consecutive sentences aloud. Do they have the same shape-> If yes, vary one.
 
 6f. Sentence-starter variation
 Rule: No back-to-back sentences starting with the same word. Even two in a row is a flag.
@@ -198,7 +198,7 @@ Fix patterns:
 
 Insert a connective: I made coffee I didn't drink. Then I checked the door.
 Restructure to lead with the object: I looked at the phone on the table. → The phone sat on the table. I looked at it.
-Compress into a comma-list when items are listable (see 6c): I sat. I stood. I sat again. → I sat, stood and sat again.
+I sat. I stood. I sat again. -> I sat, stood, and sat again.
 Lead with dependent clause: I waited. → Waiting at the window, I...
 Lead with participle: I felt his shoulder. → Feeling his shoulder against mine, I...
 Lead with dialogue: "You're late," she said.
@@ -225,11 +225,11 @@ Purpose: Catch what only a continuous read can catch.
 Scan for:
 
 Names spelled consistently throughout.
-Ages, dates, timeline math (if she arrived in October, the first frost in December is two months — does the narrative match?).
+Ages, dates, timeline math (if she arrived in October, the first frost in December is two months — does the narrative match->).
 Object continuity — if a character picks something up in Ch 5, it should be accounted for when it matters in Ch 12.
-Wound continuity — if a character is injured in Ch 8, is that injury tracked correctly through subsequent chapters?
-Setting continuity — was the kitchen described as facing east in Ch 1? Then it can't face west in Ch 30.
-Character knowledge — does character X know fact Y at this point in the timeline?
+Wound continuity — if a character is injured in Ch 8, is that injury tracked correctly through subsequent chapters->
+Setting continuity — was the kitchen described as facing east in Ch 1-> Then it can't face west in Ch 30.
+Character knowledge — does character X know fact Y at this point in the timeline->
 
 Read in one sitting if possible. Mark every flag. Fix in a single pass at the end.
 
@@ -262,6 +262,8 @@ Build DOCX from working source. Preserve italics, scene breaks, drop caps if use
 Verify chapter numbering is continuous and titles match the table of contents.
 Verify scene break formatting is consistent (* * * vs # vs blank).
 Run final word count for genre target.
+Run a final chapter-quality gate before calling the book ready. For each chapter, confirm natural prose, tone match, outline/beat adherence when a chapter outline exists, arc progression, emotional or romantic progression, pacing/transitions, show-vs-tell, chapter-ending momentum, POV integrity, heat/intensity calibration, and banned-list cleanup.
+If any gate item fails, do not bury it in the change log. Send that chapter back to the relevant pass and record the failure in the pass log.
 Save versioned final (e.g., BookTitle_PenName_FINAL_v1.docx).
 Generate change log if working with editor / beta readers.
 
