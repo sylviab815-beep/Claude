@@ -1,0 +1,19 @@
+{
+  "name": "manuscript-editor-pro",
+  "version": "2.2.1",
+  "description": "Professional fiction manuscript editing with Track Changes \u2014 developmental assessment (advisory only), line edit, proofread, and continuity audit. Every prose change delivered as a tracked revision the author can accept or reject. v2.2: Meaning Preservation Protocol, explicit docx skill dependency, strengthened storyline safeguards, anti-laziness guardrails with chapter-by-chapter processing and minimum issue thresholds.",
+  "author": {
+    "name": "i2i Hype"
+  },
+  "keywords": [
+    "editing",
+    "manuscript",
+    "fiction",
+    "track changes",
+    "line edit",
+    "proofread",
+    "developmental assessment",
+    "docx",
+    "epub"
+  ]
+}
