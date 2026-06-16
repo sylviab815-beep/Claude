@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Katherine Fletcher — Mysteries Cozy &amp; Crime</title>
+<meta name="description" content="Two kinds of trouble from mystery author Katherine Fletcher: the cozy Thornbury Village Mysteries and the stylish Dorian Royce PI Files.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,500;1,600&family=Karla:wght@300;400;500;700&family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --parch:#f4efe4;
+    --parch-deep:#e7dec9;
+    --ink:#2a2722;
+    --teal:#2f6d6a;
+    --teal-deep:#234f4d;
+    --brass:#b8893b;
+    --brass-soft:#d9b876;
+    --ox:#7c3b32;
+    --noir:#1c1f23;
+    --noir-2:#262a30;
+    --smoke:#b9bdc4;
+    --shadow:rgba(35,40,44,.22);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:'Karla',sans-serif;color:var(--ink);background:var(--parch);line-height:1.7}
+  h1,h2,h3,h4{font-family:'Playfair Display',serif;font-weight:700;letter-spacing:.2px}
+  .mono{font-family:'Courier Prime',monospace}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:1100px;margin:0 auto;padding:0 30px}
+  .btn{display:inline-block;font-family:'Karla';font-weight:700;font-size:.78rem;letter-spacing:1.5px;text-transform:uppercase;padding:14px 30px;border-radius:2px;background:var(--brass);color:#fff;border:1.5px solid var(--brass);transition:.25s;cursor:pointer}
+  .btn:hover{background:transparent;color:var(--brass)}
+  .btn.teal{background:var(--teal);border-color:var(--teal)}
+  .btn.teal:hover{background:transparent;color:var(--teal)}
+  .btn.ghost-light{background:transparent;border-color:#fff;color:#fff}
+  .btn.ghost-light:hover{background:#fff;color:var(--noir)}
+  .btn.ox{background:var(--ox);border-color:var(--ox)}
+  .btn.ox:hover{background:transparent;color:var(--brass-soft)}
+
+  /* nav */
+  nav{position:sticky;top:0;z-index:30;background:rgba(244,239,228,.95);backdrop-filter:blur(8px);border-bottom:1px solid var(--parch-deep)}
+  .nav-inner{display:flex;align-items:center;justify-content:space-between;padding:16px 30px;max-width:1100px;margin:0 auto}
+  .logo{line-height:1}
+  .logo .mark{font-family:'Playfair Display';font-size:1.7rem;font-weight:800;color:var(--ink)}
+  .logo .sub{display:block;font-size:.58rem;letter-spacing:4px;text-transform:uppercase;color:var(--brass);font-weight:700;margin-top:3px}
+  .nav-links{display:flex;gap:26px;font-size:.76rem;letter-spacing:1.5px;text-transform:uppercase;font-weight:700}
+  .nav-links a{opacity:.75;transition:.2s}
+  .nav-links a:hover{opacity:1;color:var(--teal)}
+  @media(max-width:780px){.nav-links{display:none}}
+
+  /* hero */
+  .hero{position:relative;text-align:center;color:#f4efe4;padding:108px 0 116px;overflow:hidden;
+    background:linear-gradient(135deg,var(--noir) 0%,var(--noir-2) 48%,var(--teal-deep) 100%)}
+  .hero::before{content:"";position:absolute;inset:0;opacity:.5;
+    background:radial-gradient(circle at 78% 25%,rgba(184,137,59,.40),transparent 42%),
+               radial-gradient(circle at 18% 80%,rgba(124,59,50,.40),transparent 48%)}
+  .hero::after{content:"";position:absolute;inset:0;opacity:.06;
+    background-image:repeating-linear-gradient(45deg,#fff 0 2px,transparent 2px 9px)}
+  .hero .wrap{position:relative}
+  .hero .eyebrow{font-family:'Courier Prime',monospace;font-size:.82rem;letter-spacing:5px;text-transform:uppercase;color:var(--brass-soft);margin-bottom:22px}
+  .hero h1{font-size:clamp(2.7rem,6.5vw,5rem);line-height:1.03;margin-bottom:18px}
+  .hero h1 em{font-style:italic;color:var(--brass-soft)}
+  .hero p{max-width:560px;margin:0 auto 36px;opacity:.9;font-size:1.08rem}
+  .hero .cta-row{display:flex;gap:16px;justify-content:center;flex-wrap:wrap}
+
+  /* case-file strip */
+  .filestrip{background:var(--ink);color:var(--smoke);font-family:'Courier Prime',monospace;font-size:.78rem;letter-spacing:1px;text-align:center;padding:11px 16px}
+  .filestrip b{color:var(--brass-soft)}
+
+  section{padding:86px 0}
+  .series-head{text-align:center;margin-bottom:46px}
+  .series-head .tag{display:inline-block;font-family:'Courier Prime',monospace;font-size:.72rem;letter-spacing:2px;text-transform:uppercase;padding:6px 16px;border-radius:30px;font-weight:700;margin-bottom:16px}
+  .series-head h2{font-size:clamp(2rem,4.4vw,3rem);margin-bottom:10px}
+  .series-head p{max-width:560px;margin:0 auto;opacity:.82}
+
+  /* COZY SERIES */
+  .cozy{background:linear-gradient(180deg,var(--parch),var(--parch-deep))}
+  .cozy .tag{background:rgba(47,109,106,.14);color:var(--teal-deep)}
+  .cozy h2{color:var(--teal-deep)}
+  .books{display:grid;grid-template-columns:repeat(4,1fr);gap:28px}
+  @media(max-width:880px){.books{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:460px){.books{grid-template-columns:1fr;max-width:280px;margin:0 auto}}
+  .book{text-align:center}
+  .cover{aspect-ratio:2/3;border-radius:5px;box-shadow:0 20px 42px var(--shadow);display:flex;flex-direction:column;justify-content:center;align-items:center;color:#fff;text-align:center;padding:22px;position:relative;overflow:hidden;transition:.3s;margin-bottom:14px}
+  .book:hover .cover{transform:translateY(-6px);box-shadow:0 28px 54px var(--shadow)}
+  .cover .ser{font-family:'Courier Prime',monospace;font-size:.62rem;letter-spacing:2px;text-transform:uppercase;opacity:.9;margin-bottom:auto;padding-top:4px}
+  .cover .ct{font-family:'Playfair Display';font-size:1.5rem;font-weight:700;line-height:1.06}
+  .cover .ca{font-size:.66rem;letter-spacing:1.5px;text-transform:uppercase;margin-top:auto;opacity:.92}
+  .cover .badge{position:absolute;top:9px;right:9px;background:var(--ox);color:#fff;font-family:'Courier Prime',monospace;font-size:.58rem;letter-spacing:1px;text-transform:uppercase;padding:3px 8px;border-radius:20px}
+  .cz1{background:linear-gradient(155deg,#3a8682,#2f6d6a)}
+  .cz2{background:linear-gradient(155deg,#c98a3c,#a86f2a)}
+  .cz3{background:linear-gradient(155deg,#9a6a4f,#7c3b32)}
+  .cz4{background:linear-gradient(155deg,#6b8e5a,#4f6e42)}
+  .book h4{font-size:1.3rem;margin-bottom:2px;color:var(--ink)}
+  .book .bk-ser{font-family:'Courier Prime',monospace;font-size:.66rem;letter-spacing:1.5px;text-transform:uppercase;color:var(--brass);margin-bottom:10px}
+  .book .buy{font-size:.72rem;letter-spacing:1.5px;text-transform:uppercase;font-weight:700;color:var(--teal);border-bottom:1.5px solid var(--brass-soft)}
+
+  /* PI SERIES (noir) */
+  .pi{background:linear-gradient(180deg,var(--noir),var(--noir-2));color:#e7e3da;position:relative;overflow:hidden}
+  .pi::before{content:"";position:absolute;inset:0;opacity:.07;background-image:repeating-linear-gradient(45deg,#fff 0 2px,transparent 2px 9px)}
+  .pi .wrap{position:relative}
+  .pi .tag{background:rgba(184,137,59,.18);color:var(--brass-soft)}
+  .pi h2{color:#fff}
+  .pi .series-head p{opacity:.78}
+  .pi-feat{display:grid;grid-template-columns:0.85fr 1.15fr;gap:54px;align-items:center;margin-bottom:56px}
+  @media(max-width:760px){.pi-feat{grid-template-columns:1fr;text-align:center;gap:32px}}
+  .pi-cover{aspect-ratio:2/3;border-radius:5px;box-shadow:0 28px 60px rgba(0,0,0,.5);display:flex;flex-direction:column;justify-content:center;align-items:center;color:#fff;text-align:center;padding:30px;position:relative;overflow:hidden;
+    background:linear-gradient(155deg,#2f3a44,#1c1f23)}
+  .pi-cover::after{content:"";position:absolute;inset:0;background:radial-gradient(circle at 70% 20%,rgba(184,137,59,.5),transparent 55%)}
+  .pi-cover .ser{position:relative;font-family:'Courier Prime',monospace;font-size:.64rem;letter-spacing:2px;text-transform:uppercase;color:var(--brass-soft);margin-bottom:auto;padding-top:4px}
+  .pi-cover .ct{position:relative;font-family:'Playfair Display';font-size:2rem;font-weight:700;line-height:1.05}
+  .pi-cover .ca{position:relative;font-size:.74rem;letter-spacing:2px;text-transform:uppercase;margin-top:auto;opacity:.92}
+  .pi-info .label{font-family:'Courier Prime',monospace;font-size:.72rem;letter-spacing:2px;text-transform:uppercase;color:var(--brass-soft);margin-bottom:14px}
+  .pi-info h3{font-size:2.3rem;color:#fff;line-height:1.08;margin-bottom:16px}
+  .pi-info p{opacity:.82;margin-bottom:22px}
+  .pi-info .stars{color:var(--brass-soft);letter-spacing:3px;margin-bottom:18px}
+  .pi-list{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+  @media(max-width:680px){.pi-list{grid-template-columns:1fr;max-width:280px;margin:0 auto}}
+  .pi-list .cover{background:linear-gradient(155deg,#39444f,#22262b)}
+  .pi-list .pc2{background:linear-gradient(155deg,#5a4a3a,#332a20)}
+  .pi-list .pc3{background:linear-gradient(155deg,#3c4a4a,#222b2b)}
+  .pi-list h4{color:#fff;font-size:1.25rem;margin-bottom:2px}
+  .pi-list .bk-ser{color:var(--brass-soft)}
+  .pi-list .buy{color:var(--brass-soft);border-color:var(--brass)}
+
+  /* ABOUT */
+  .about{background:#fff;border-top:1px solid var(--parch-deep);border-bottom:1px solid var(--parch-deep)}
+  .about-grid{display:grid;grid-template-columns:0.8fr 1.2fr;gap:54px;align-items:center}
+  @media(max-width:760px){.about-grid{grid-template-columns:1fr;text-align:center}}
+  .portrait{aspect-ratio:1/1;border-radius:50%;max-width:290px;margin:0 auto;display:flex;align-items:center;justify-content:center;font-family:'Playfair Display';font-style:italic;font-size:3.6rem;color:#fff;box-shadow:0 20px 44px var(--shadow);
+    background:radial-gradient(circle at 35% 30%,#3a8682,var(--teal-deep))}
+  .about-grid .eyebrow{font-family:'Courier Prime',monospace;font-size:.74rem;letter-spacing:2px;text-transform:uppercase;color:var(--brass);margin-bottom:10px}
+  .about-grid h2{font-size:2.6rem;margin-bottom:8px;color:var(--ink)}
+  .about-grid .kicker{font-family:'Playfair Display';font-style:italic;font-size:1.3rem;color:var(--teal);margin-bottom:20px}
+  .about-grid p{opacity:.85;margin-bottom:16px}
+
+  /* NEWSLETTER */
+  .news{background:var(--teal-deep);color:#eaf2f1;text-align:center;position:relative;overflow:hidden}
+  .news::before{content:"";position:absolute;inset:0;opacity:.5;background:radial-gradient(circle at 85% 30%,rgba(184,137,59,.35),transparent 45%)}
+  .news .wrap{position:relative}
+  .news h2{color:#fff;font-size:2.5rem;margin-bottom:10px}
+  .news .gift{font-family:'Courier Prime',monospace;color:var(--brass-soft);font-size:.95rem;letter-spacing:1px;margin-bottom:22px}
+  .news p{opacity:.9;max-width:520px;margin:0 auto 26px}
+  .form{display:flex;gap:10px;max-width:460px;margin:0 auto;flex-wrap:wrap;justify-content:center}
+  .form input{flex:1;min-width:220px;padding:15px 20px;border-radius:2px;border:none;font-family:'Karla';font-size:.95rem}
+
+  /* FOOTER */
+  footer{background:var(--noir);color:#9aa0a8;padding:54px 0 28px;text-align:center}
+  footer .imprint{font-family:'Playfair Display';font-size:1.3rem;color:#fff;margin-bottom:6px}
+  footer .imprint a{color:var(--brass-soft)}
+  footer .socials{margin:18px 0;display:flex;gap:22px;justify-content:center;font-family:'Courier Prime',monospace;font-size:.74rem;letter-spacing:1.5px;text-transform:uppercase}
+  footer .socials a{opacity:.7;transition:.2s}
+  footer .socials a:hover{opacity:1;color:var(--brass-soft)}
+  footer .fine{font-size:.72rem;opacity:.5;margin-top:14px;line-height:1.9}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <div class="logo"><span class="mark">Katherine Fletcher</span><span class="sub">Mystery Author</span></div>
+    <div class="nav-links">
+      <a href="#cozy">Cozy Mysteries</a>
+      <a href="#pi">The PI Files</a>
+      <a href="#about">About</a>
+      <a href="#newsletter">Newsletter</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="eyebrow">Two series · One sleuth-loving author</div>
+    <h1>Two kinds of<br>trouble. One great<br><em>whodunit.</em></h1>
+    <p>Warm small-town cozies and slick, fast-talking PI capers — pick your poison and follow the clues.</p>
+    <div class="cta-row">
+      <a href="#cozy" class="btn teal">The Cozy Mysteries</a>
+      <a href="#pi" class="btn ghost-light">The PI Files</a>
+    </div>
+  </div>
+</header>
+
+<div class="filestrip">CASE FILE #001 — STATUS: <b>OPEN</b> — START READING BELOW — EVIDENCE INSIDE</div>
+
+<!-- COZY -->
+<section class="cozy" id="cozy">
+  <div class="wrap">
+    <div class="series-head">
+      <span class="tag">Cozy &amp; Charming · No gore, all heart</span>
+      <h2>The Thornbury Village Mysteries</h2>
+      <p>When tea-shop owner Margaret Pine isn't pouring Earl Grey, she's untangling murder in the nosiest little village in New England. Cozy, clever, and quietly impossible to put down.</p>
+    </div>
+    <div class="books">
+      <div class="book">
+        <div class="cover cz1"><span class="badge">Book 1</span><div class="ser">Thornbury Village</div><div class="ct">A Fatal Cup of Tea</div><div class="ca">Katherine Fletcher</div></div>
+        <h4>A Fatal Cup of Tea</h4><div class="bk-ser">Thornbury · 1</div><a href="#" class="buy">Buy →</a>
+      </div>
+      <div class="book">
+        <div class="cover cz2"><div class="ser">Thornbury Village</div><div class="ct">Murder at the Maple Festival</div><div class="ca">Katherine Fletcher</div></div>
+        <h4>Murder at the Maple Festival</h4><div class="bk-ser">Thornbury · 2</div><a href="#" class="buy">Buy →</a>
+      </div>
+      <div class="book">
+        <div class="cover cz3"><div class="ser">Thornbury Village</div><div class="ct">Death by Chocolate Scone</div><div class="ca">Katherine Fletcher</div></div>
+        <h4>Death by Chocolate Scone</h4><div class="bk-ser">Thornbury · 3</div><a href="#" class="buy">Buy →</a>
+      </div>
+      <div class="book">
+        <div class="cover cz4"><div class="ser">Thornbury Village</div><div class="ct">The Last Garden Club Meeting</div><div class="ca">Katherine Fletcher</div></div>
+        <h4>The Last Garden Club Meeting</h4><div class="bk-ser">Thornbury · 4</div><a href="#" class="buy">Buy →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PI -->
+<section class="pi" id="pi">
+  <div class="wrap">
+    <div class="series-head">
+      <span class="tag">Slick · Witty · A little dangerous</span>
+      <h2>The Dorian Royce Files</h2>
+      <p>A reformed art thief with a charm problem and a private investigator's license he probably shouldn't have. Banter, heists, and just enough trouble to keep things interesting.</p>
+    </div>
+
+    <div class="pi-feat">
+      <div class="pi-cover">
+        <div class="ser">Royce Files · 1</div>
+        <div class="ct">The Art of the Steal</div>
+        <div class="ca">Katherine Fletcher</div>
+      </div>
+      <div class="pi-info">
+        <div class="label">// New Release · Case File 01</div>
+        <div class="stars">★★★★★ <span style="color:#9aa0a8;font-size:.8rem;letter-spacing:0">&nbsp;489 reviews</span></div>
+        <h3>The Art of the Steal</h3>
+        <p>Dorian Royce went straight three years ago — mostly. So when a museum's prized canvas vanishes and the only suspect is the woman who once put him in handcuffs, he has exactly one way to clear his name: do what he does best, on the right side of the law for once. A glossy, fast-talking caper for fans of <em>White Collar</em> and <em>Castle</em>.</p>
+        <a href="#" class="btn ox">Buy at FBP Store →</a>
+      </div>
+    </div>
+
+    <div class="pi-list">
+      <div class="book">
+        <div class="cover pc2"><div class="ser">Royce Files · 2</div><div class="ct">Saints &amp; Sinners</div><div class="ca">Katherine Fletcher</div></div>
+        <h4>Saints &amp; Sinners</h4><div class="bk-ser">Royce Files · 2</div><a href="#" class="buy">Buy →</a>
+      </div>
+      <div class="book">
+        <div class="cover pc3"><div class="ser">Royce Files · 3</div><div class="ct">The Last Honest Thief</div><div class="ca">Katherine Fletcher</div></div>
+        <h4>The Last Honest Thief</h4><div class="bk-ser">Royce Files · 3</div><a href="#" class="buy">Buy →</a>
+      </div>
+      <div class="book">
+        <div class="cover"><div class="ser">Royce Files · 4</div><div class="ct">Paradise Heist</div><div class="ca">Katherine Fletcher</div></div>
+        <h4>Paradise Heist</h4><div class="bk-ser">Royce Files · 4</div><a href="#" class="buy">Buy →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="wrap about-grid">
+    <div class="portrait">KF</div>
+    <div>
+      <div class="eyebrow">// The author behind the badge</div>
+      <h2>About Katherine</h2>
+      <p class="kicker">Equal parts teacup and trench coat.</p>
+      <p>Katherine Fletcher writes mysteries for readers who can't decide between a cozy night in and a clever caper — so she writes both. Her Thornbury Village cozies serve murder with a side of scones, while the Dorian Royce Files trade scones for stolen Monets and snappy comebacks.</p>
+      <p>A lifelong devourer of detective novels and old crime shows, Katherine plots her books on index cards taped to the kitchen wall, much to her family's concern.</p>
+      <a href="#newsletter" class="btn teal" style="margin-top:8px">Join the Case File</a>
+    </div>
+  </div>
+</section>
+
+<!-- NEWSLETTER -->
+<section class="news" id="newsletter">
+  <div class="wrap">
+    <h2>The Case File</h2>
+    <div class="gift">[ FREE NOVELLA ENCLOSED: "The Thornbury Christmas Caper" ]</div>
+    <p>Clues, cover reveals, and first looks at both series — delivered to your inbox. No spam, no red herrings.</p>
+    <form class="form" onsubmit="return false">
+      <input type="email" placeholder="Your email address" aria-label="Email address">
+      <button class="btn ox" type="submit">Send the File</button>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <div class="imprint">An author of <a href="fbp-storefront.html">Faulkner-Briggs Press</a></div>
+    <div style="font-size:.82rem;opacity:.7">Cozy mysteries &amp; PI crime fiction</div>
+    <div class="socials"><a href="#">Facebook</a><a href="#">Instagram</a><a href="#">BookBub</a><a href="#">Goodreads</a></div>
+    <div class="fine">
+      All purchases are securely completed at the Faulkner-Briggs Press store.<br>
+      © 2026 Katherine Fletcher / Faulkner-Briggs Press. All rights reserved. · Privacy · Terms
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
