@@ -1,0 +1,4 @@
+# Never commit Scroll Stopper secrets or the materialized home config
+.scroll-stopper/
+**/secrets.json
+*.secret

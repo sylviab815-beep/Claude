@@ -1,0 +1,49 @@
+{
+  "output_folder": "/root/ScrollStopper",
+  "library_folder": "",
+  "default_mode": "ai",
+  "platforms": [
+    "TikTok",
+    "Instagram",
+    "YouTube Shorts"
+  ],
+  "csv_log_path": "/root/ScrollStopper/scroll-stopper-log.csv",
+  "csv_columns": [
+    "date_generated",
+    "pen_name",
+    "book_title",
+    "genre",
+    "slideshow_number",
+    "slide_count",
+    "mode",
+    "platforms",
+    "output_path",
+    "post_date",
+    "status",
+    "hook_summary",
+    "dropbox_url"
+  ],
+  "font_override": "",
+  "use_genre_fonts": true,
+  "music_default": "silent",
+  "dropbox_folder": "/Scroll-Stopper/Videos",
+  "default_cta": "Out now in Kindle Unlimited",
+  "buy_link_template": "",
+  "social_handles": {
+    "TikTok": "",
+    "Instagram": "",
+    "Facebook": "",
+    "YouTube Shorts": "",
+    "Pinterest": ""
+  },
+  "auto_generate_captions": true,
+  "default_scheduler": "metricool",
+  "scheduler_csv_path": "",
+  "has_elevenlabs": true,
+  "elevenlabs_voice_id": "XB0fDUnXU5powFXDhCwa",
+  "has_metricool": true,
+  "metricool_mcp": true,
+  "pixabay_api_key": "",
+  "elevenlabs_api_key": "",
+  "dropbox_token": ""
+}
