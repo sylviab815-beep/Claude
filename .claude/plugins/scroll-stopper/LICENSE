@@ -1,0 +1,32 @@
+Scroll Stopper — Personal Use License
+
+Copyright (c) 2026 Dana Sacco. All rights reserved.
+
+PERMITTED USE
+You are granted a non-exclusive, non-transferable license to use Scroll Stopper
+for your personal book marketing and content creation, including for books you
+own or have rights to publish under any pen name.
+
+You MAY:
+- Install Scroll Stopper on any computers you personally use
+- Use Scroll Stopper to generate marketing content for unlimited books you own
+- Modify the plugin for your own personal use
+
+You MAY NOT:
+- Resell, redistribute, sublicense, or share Scroll Stopper or any of its files
+- Repackage Scroll Stopper as part of another product or service
+- Run Scroll Stopper as a service for third parties (i.e., generate content for
+  other authors as a paid service without a separate commercial license)
+- Remove or alter copyright notices
+
+API USAGE
+Scroll Stopper makes calls to third-party APIs (fal.ai). You are responsible
+for your own API costs and for complying with those providers' terms of service.
+
+WARRANTY
+Scroll Stopper is provided "as is" without warranty of any kind. The author
+is not liable for any costs incurred through API usage, lost time, or content
+output quality.
+
+For commercial licensing (e.g., running this as a service for clients),
+contact dana@i2ihype.com.

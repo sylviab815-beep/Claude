@@ -1,0 +1,9 @@
+{
+  "name": "scroll-stopper",
+  "version": "1.9.0",
+  "description": "Scroll Stopper — turn any book manuscript into ready-to-post 9:16 slideshow reels with AI-generated images, genre + pairing-aware text hooks, platform-specific captions and hashtags, optional music, optional AI voiceover narration (ElevenLabs), Dropbox auto-upload, and a Metricool-ready scheduler CSV. Built for indie authors who want consistent BookTok/Reels content without the design work.",
+  "author": {
+    "name": "Dana Sacco"
+  },
+  "keywords": ["scroll-stopper", "booktok", "book marketing", "reels", "tiktok", "instagram", "youtube shorts", "slideshow", "text hooks", "voiceover", "elevenlabs", "indie author", "ai content", "flux", "fal.ai"]
+}
