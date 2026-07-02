@@ -53,7 +53,7 @@ When asked to audit dialogue:
 4. **Read references/DIALOGUE_CATEGORIES.md** in full.
 5. **Read the relevant genre overlay** from references/PER_GENRE_OVERLAYS.md based on the user's stated genre.
 6. **Read references/REWRITE_PATTERNS.md** if generating rewrite suggestions.
-7. **Run the 14-category audit.** Categories listed below; full detail in CRITIQUE_CATEGORIES.md.
+7. **Run the 14-category audit.** Categories listed below; full detail in references/DIALOGUE_CATEGORIES.md.
 8. **Run the grep pass** from `references/GREP_PASS.md`.
 9. **Produce the audit** — bold problem statement → location (chapter + line or excerpt) → why it matters → proposed fix (character-appropriate if profile-aware).
 10. **End with a priority list** — the top 10-15 fixes ranked by impact.

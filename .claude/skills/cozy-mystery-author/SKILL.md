@@ -95,7 +95,7 @@ This is the most important section of this skill. Cozy mysteries live or die on 
 - Give the killer more page time or more suspicious descriptions than other suspects
 - Have characters react to the killer differently than to other suspects without narrative justification
 
-Read `references/outline-adherence.md` for the complete anti-spoiler system. The core rules:
+Read `references/cozy-equilibrium-system.md` for the complete anti-spoiler system. The core rules:
 
 ### Rule 1: Chapter-Locked Writing
 Each chapter is written ONLY from the information available at that point in the outline. Before writing Chapter 6, the AI must ask: "What does the sleuth know at this point? What has been revealed? What is still hidden?" and write ONLY from that knowledge state.
